@@ -13,7 +13,7 @@ namespace BookStore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=../../../../BookStore.db;Cache=Shared");
+            optionsBuilder.UseSqlite("Data Source=../BookStore.db;Cache=Shared");
         }
     }
 }
